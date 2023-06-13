@@ -1,0 +1,59 @@
+            GIT BASIC COMMENDS
+1. git config --global user.name "ASTR001" ------- name of changing user
+2. git config --global user.email astrsmartcity@gmail.com"  ------------ email of changing user
+
+git config - used to identify the changes from type of user
+--global - It is optional. --global used to find the changes from morethan one directory
+
+3. mkdir directory_name ----------- create the directory.
+3a. rmdir directory_name ----------- remove directory
+3b. touch file_name  ------------- create new file
+3c. rm file_name ------------- remove file
+
+4. cd directory_name ----------- current path to next directory path
+5. cd ..  ----------- backward the path
+5a. cls  ------------ clear the prompt
+5b. ls (or) ll -------- list of files in directory
+
+6. git init directory_name ---------  create and initialize the directory and set to version control system
+7. git status -------------- check overall status and new file add updated.
+8. git add file_name --------------- file added to staged area (tracked file)
+8a. git rm --cached file_name ---------- file remove from staged area (tracked file)
+
+9. git commit -m "First Commit"
+10. git log  --------------  check the overall commit changes, user, date&time
+11. git log --oneline ----------- single line changes check
+
+12. git checkout commit_id  ---------------- remove the commit based on id (last commit not able to removed)
+13. git checkout master   ------------------ removed commit is recreated
+
+14. git deff file_name -------------- check modified lines from file
+15. cat file_name -------------- check the commited content in the file
+
+                GIT BRANCH COMMENDS
+1. git branch  ------------ list of branches
+2. git branch branch_name  ----------- create branch
+3. git checkout branch_name  ---------- move to selective branch
+4. git branch -D branch_name  --------- delete the branch
+
+               GIT REMOTE COMMENDS
+1. git remote add origin git_path  ------------  connect remote repository (origin is variable name)
+2. git push -u origin master  ----------- all files added to push (master is branch name)
+
+3. git clone git_path  ---------------  clone project
+4. git add .  -------------  add files to staged area
+5. git commit -m "msg"  ------------  commit changes
+6. git push origin master  ---------- push the changes
+7. git pull -r  -------------  local changes updated to remote
+8. git push --set-upstream origin feature/bue-123-auth  ---------- create remote branch to copy code
+
+9. git stash  -----------------  my local changes hide to pull request
+10. git pull origin other_branch --------- pull new repository changes
+11. git stash apply  ------------ hide changes is show
+
+12. git commit --amend -m "msg"  --------------  changes is added to previous commit
+13. git push --force  ----------  any commit history changes to use push force
+
+
+
+
